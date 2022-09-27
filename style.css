@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.landPage,
+.loginPage,
+.signupPage {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 50px auto;
+}
+.landPage {
+  height: 600px;
+  width: 500px;
+  justify-content: space-around;
+}
+.landPage img {
+  width: 350px;
+}
+
+#logLinkBtn,
+#signLinkBtn {
+  width: 250px;
+  border-radius: 40px;
+  padding: 16px;
+  border: none;
+  cursor: pointer;
+}
+#logLinkBtn,
+#signLinkBtn {
+  color: white;
+  background-color: #daac93;
+}
+
+#logLinkBtn:hover,
+#signLinkBtn:hover {
+  background-color: #745f57;
+}
+/* .loginPage {
+  height: 800px;
+} */
+.signupPage {
+  height: 300px;
+}
+.logF,
+.signF {
+  /* background-color: #ae934a; */
+  /* margin-top: 30px; */
+  /* height: 300px; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+  /* align-items: center; */
+}
+.signF {
+  justify-content: space-evenly;
+  /* height: 350px; */
+}
+.loginPage {
+  margin-top: 200px;
+}
+.loginPage p,
+.signupPage p {
+  margin: 30px;
+}
+.logF input,
+.signF input {
+  margin-bottom: 25px;
+  padding: 10px;
+  width: 250px;
+}
+/* .error {
+  color: #ff0000;
+  width: 150px;
+}
+.inputVal {
+  width: 450px;
+} */
+
+/* Body */
+.logBody,
+.signUpBody {
+  background-image: url("https://i.pinimg.com/736x/57/b6/6b/57b66b669ee3296a63c25d486df68f2a.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* welcome page */
+
+.welBody {
+  background-color: rgb(247, 247, 247);
+}
+
+.welcomePag {
+  width: 500px;
+  height: 450px;
+  margin: 150px auto;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  text-align: center;
+  padding: 20px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnoeIn4DgMhBQo5s8CqhLomy100DcrXmMc2A&usqp=CAU");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.welcomePag input {
+  width: 170px;
+  color: white;
+  border: none;
+  background-color: #dba8b9;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.welcomePag input:hover {
+  background-color: rgb(87, 56, 56);
+}
+
+.welcomePag .imgC {
+  border: 2px solid #dba8b9;
+  border-radius: 50%;
+  width: 200px;
+  height: 140px;
+}
+
+.welcomePag img {
+  border: 8px solid white;
+  border-radius: 50%;
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+  width: 100%;
+  height: 100%;
+}
+
+/* admin page */
+
+.updateBtn {
+  background-color: #dba8b9;
+  color: white;
+}
+.deleteBtn {
+  background-color: #37474f;
+  color: white;
+}

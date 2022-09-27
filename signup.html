@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>SignUp</title>
+  </head>
+
+  <body class="signUpBody">
+    <div class="signupPage">
+      <h2>Sign up</h2>
+      <p>Create an account , its free</p>
+
+      <form action="signup.php" method="post" class="signF">
+        <!-- the name and phone errors -->
+        <div>
+          <!-- <label for="">Full Name</label><br /> -->
+          <input type="text" name="name" id="name" placeholder="Full Name" />
+          <!-- <span class="error">* <?php
+                                            //  echo $nameErr;
+                                            ?></span> -->
+        </div>
+        <div>
+          <!-- <label for="">Mobile </label><br /> -->
+          <input type="tel" name="phone" id="phone" placeholder="Mobile" />
+          <!-- <span class="error">* <?php
+                                            // echo $phoneErr;
+                                            ?></span> -->
+        </div>
+        <div>
+          Select Image File to <br />
+          <input type="file" name="file" id="image" />
+        </div>
+        <div>
+          <!-- <label for="">Email</label><br /> -->
+          <input type="text" name="email" id="email" placeholder="Email" />
+          <!-- <span class="error">* <?php echo $emailErr; ?></span> -->
+        </div>
+        <div>
+          <!-- <label for="">Birth date</label><br /> -->
+          <input type="date" name="bDate" id="bDate" placeholder="Birth date" />
+        </div>
+        <div>
+          <!-- <label for="">Password</label><br /> -->
+          <input type="password" name="pass" id="pass" placeholder="Password" />
+          <!-- <span class="error">* <?php echo $passErr; ?></span> -->
+        </div>
+        <div>
+          <!-- <label for="">Confirm password </label><br /> -->
+          <input
+            type="password"
+            name="conPass"
+            id="conPass"
+            placeholder="Confirm password"
+          />
+          <!-- <span class="error">* <?php echo $conPassErr; ?></span> -->
+        </div>
+        <a href="./welcome.php"
+          ><input type="submit" name="insert" value="sign UP" id="signLinkBtn"
+        /></a>
+      </form>
+      <div>
+        Already have an account ? <b><a href="./login.php">Login</a></b>
+      </div>
+    </div>
+
+    <script src="signup.js"></script>
+  </body>
+</html>
